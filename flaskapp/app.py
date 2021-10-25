@@ -70,7 +70,7 @@ def uploader():
         labels=['mak', 'csproj', 'rexx', 'jenkinsfile', 'ml', 'kt']
         predLabel=labels[pred[-1]-1]
         print(predLabel)
-        return render_template('index.html', prediction_text='predicted File : {}'.format(predLabel))
+        return render_template('index.html', prediction_text='predicted File Type: {}'.format(predLabel))
 
 
 if __name__ == "__main__":
