@@ -40,9 +40,9 @@ By default, flask will run on port 5000.
 
 You should be able to view the homepage as below :
 
-
+<img src="images/initial.png" alt="Flask App Home Page">
 
 Upload a file to get the prediction. Here is an example prediction
 
 
-
+<img src="images/prediction.png" alt="Flask App Prediction">
