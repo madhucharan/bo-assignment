@@ -90,7 +90,7 @@ class Models:
         self.sytrain  =[]
         self.ytest = []
 
-    def preprocess(self,df):
+    def preprocess(self,data):
         target= data['target']
         data= data.drop('target',axis=1)
         xtrain,xtest,self.ytrain,self.ytest = train_test_split(data,target,test_size=0.2)
