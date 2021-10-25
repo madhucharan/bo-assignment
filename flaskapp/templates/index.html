@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html >
   <head>
-    <h1>Upload a File</h1>
+    <div style="text-align:center">
+    <h2>Upload a File</h2>
     <form action="/uploader" enctype="multipart/form-data" method = "post">
       <input type="file" name="myfile">
       <button type="submit">Submit</button>
     </form>
-    {{ prediction_text }}
+    <br>
+    <br>
+    <h3>{{ prediction_text }}</h3>
+  </div>
   </head>
 </html>
